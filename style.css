@@ -2,6 +2,11 @@
 CSS Example created by Daniel McGraw
 For educative purposes only
 */
+
+html{
+  background-color: #0a0a0a;
+}
+
 #navbar {
     /*height: 70%;*/ /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
@@ -12,6 +17,7 @@ For educative purposes only
     background-color: #111; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 5px;
+    padding-left: 5px;
     color: #a1a1a1;
 }
 
@@ -41,6 +47,17 @@ For educative purposes only
     padding: 20px;
     width: 60%;
     background-color: #222;
+}
+
+#content p {
+  color: #888;
+  font-size: 30pt;
+  font-weight: 100;
+}
+
+#content figure{
+  text-align: center;
+  color: #777;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
